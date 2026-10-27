@@ -1,0 +1,5 @@
+{
+  "name": "Chess24",
+  "pieces": "pieces/{piece}.png",
+  "board": { "image": "board.png" }
+}
