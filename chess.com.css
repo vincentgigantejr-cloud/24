@@ -1,0 +1,103 @@
+/* ==UserStyle==
+@name           www.chess.com - 9/15/2023, 1:07:39 PM
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    A new userstyle
+@author         Me
+==/UserStyle== */
+@-moz-document domain("chess.com") {
+    .coordinate-light {
+        display: none;
+    }
+
+    .coordinate-dark {
+        display: none;
+    }
+
+    .outside {
+        display: none;
+    }
+
+    .outside text {
+        display: none;
+    }
+
+    /* This remove overlay in learn mode */
+    .board.analysis-overlay::before {
+        background: none;
+    }
+    
+    /* board */
+    .board {
+        background-image: url('https://raw.githubusercontent.com/orklann/chess24/main/board.png') !important;
+    }
+
+    .hover-square {
+        left: 3.5% !important;
+        top: 3.5% !important;
+        width: 11.6% !important;
+        height: 11.6% !important;
+    }
+
+    .highlight {
+        left: 3.5% !important;
+        top: 3.5% !important;
+        width: 11.6% !important;
+        height: 11.6% !important;
+    }
+
+    .piece {
+        left: 3.5% !important;
+        top: 3.5% !important;
+        width: 11.6% !important;
+        height: 11.6% !important;
+    }
+
+    .bp {
+        background-image: url("https://raw.githubusercontent.com/orklann/chess24/main/bp.png") !important;
+    }
+
+    .wp {
+        background-image: url("https://raw.githubusercontent.com/orklann/chess24/main/wp.png") !important;
+    }
+
+    .br {
+        background-image: url("https://raw.githubusercontent.com/orklann/chess24/main/br.png") !important;
+    }
+
+    .bn {
+        background-image: url("https://raw.githubusercontent.com/orklann/chess24/main/bn.png") !important;
+    }
+
+    .bb {
+        background-image: url("https://raw.githubusercontent.com/orklann/chess24/main/bb.png") !important;
+    }
+
+    .bq {
+        background-image: url("https://raw.githubusercontent.com/orklann/chess24/main/bq.png") !important;
+    }
+
+    .bk {
+        background-image: url("https://raw.githubusercontent.com/orklann/chess24/main/bk.png") !important;
+    }
+
+    .wr {
+        background-image: url("https://raw.githubusercontent.com/orklann/chess24/main/wr.png") !important;
+    }
+
+    .wn {
+        background-image: url("https://raw.githubusercontent.com/orklann/chess24/main/wn.png") !important;
+    }
+
+    .wb {
+        background-image: url("https://raw.githubusercontent.com/orklann/chess24/main/wb.png") !important;
+    }
+
+    .wq {
+        background-image: url("https://raw.githubusercontent.com/orklann/chess24/main/wq.png") !important;
+    }
+
+    .wk {
+        background-image: url("https://raw.githubusercontent.com/orklann/chess24/main/wk.png") !important;
+    }
+}
